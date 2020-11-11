@@ -13,8 +13,8 @@ const MenuButtonWrapper = styled.button`
   }
   @media only screen and (max-width: 624px) {
   position: relative;
-  left: 3em;
-  top:4em
+  left: 2em;
+  top:3em
 }
 `
 

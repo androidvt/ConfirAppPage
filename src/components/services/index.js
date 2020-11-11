@@ -13,14 +13,7 @@ export default () => {
             <p style={{paddingLeft:'4em',}}>Agradecemos nos contacte en la eventualidad de requerir aclarar, actualizar, corregir o suprimir alguno de sus datos personales, siempre que sea procedente con la legislación aplicable.  Para este fin, los canales de comunicación establecidos son la línea telefónica en Barranquilla (+57) 5 3553435, y/o al correo electrónico: info@confirmapp.com</p>
             <br/>
         </div>
-        <div style={{height:150, backgroundColor:'blueviolet'}}>
-
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-        </div>
+        
         </div>
     )
 }
