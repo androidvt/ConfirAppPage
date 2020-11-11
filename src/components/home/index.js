@@ -6,7 +6,7 @@ export default () => {
     return (
         <div className="jumbo border rounded">
  <div className="row">
-                <div className="s float-right text-center  offset-md-6">
+                <div className="s float-right text-center  offset-md-6" style={{maxWidth:'100%'}}>
                     <div className="jumbotron-header">ConfirmApp</div>
                     <div className="row">
                         <div className=" offset-md-2">

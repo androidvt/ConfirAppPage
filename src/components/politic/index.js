@@ -2,7 +2,7 @@ import React from 'react';
 
 export default () => {
     return (
-        <div>
+        <div style={{maxWidth:'100%', paddingRight:'4em'}}>
         <div style={{ paddingLeft:'4em'}}>
             <h2 style={{paddingTop:'3em', paddingLeft:'2em', paddingBottom:'1em'}}>POLÍTICA PARA EL TRATAMIENTO Y PROTECCIÓN EN MATERIA DE DATOS PERSONALES DE LA SOCIEDAD WENJAN S.A.S.</h2>
             <p style={{paddingLeft:'2em',}}><a style={{fontWeight:'bold'}}>WENJAN S.A.S.</a>, Sociedad por Acciones Simplificada, debidamente constituida de acuerdo a las leyes de la República de Colombia (en adelante WENJAN), mediante el presente documento establece sus POLÍTICAS DE TRATAMIENTO Y PROTECCIÓN EN MATERIA DE DATOS PERSONALES, las cuales fundamentan la debida protección, uso y privacidad del derecho de Habeas Data de toda aquella persona jurídica y natural que durante el ejercicio de la actividad económica principal de WENJAN, le suministre Datos Personales por cualquier canal o medio. Las presentes políticas constituyen un acuerdo integral con WENJAN, por consiguiente, se recomienda leer atentamente cada una de las estipulaciones establecidas en las cláusulas que se exponen previas las siguientes consideraciones preliminares, y que pueden ser consultadas o solicitadas en el correo electrónico: info@confirmapp.com </p>

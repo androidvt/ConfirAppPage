@@ -2,7 +2,7 @@ import React from 'react';
 
 export default () => {
     return (
-        <div>
+        <div style={{maxWidth:'100%', paddingRight:'4em'}}>
         <div style={{ paddingLeft:'4em'}}>
             <h2 style={{paddingTop:'3em', paddingLeft:'3em', paddingBottom:'1em'}}>Aviso de privacidad</h2>
             <p style={{paddingLeft:'2em',}}><a style={{fontWeight:'bold'}}>WENJAN S.A.S.</a>, sociedad debidamente constituida bajo el ordenamiento jurídico colombiano,<br/> identificada con el Número de Identificación Tributaria (NIT) 900.012.214-6, registrada ante <br/>  la Cámara de Comercio de Barranquilla, (en adelante WENJAN) se permite informar:</p>

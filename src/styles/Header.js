@@ -5,4 +5,7 @@ export const HeaderWrapper = styled.header`
   display: block;
   justify-content: space-between;
   align-items: center;
+  text-aling:center;
+  padding-left:5em
+max-width:100%
 `

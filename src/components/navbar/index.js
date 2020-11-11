@@ -10,8 +10,7 @@ const navbar = ({open}) => {
        <>
             
             <NavbarWrapper open={open}>
-            <Navbar.Brand as={Link} to="/" style={{color:'blue'}}>ConfirmApp</Navbar.Brand>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Link to="/" style={{color:'blue'}}>ConfirmApp</Link>
                 <Link to="/">Home</Link>
                 <Link to="/Privacy">Aviso De Privacidad</Link>
                 <Link to="/PoliticTratament">Politica de Tratamiento de Datos</Link>

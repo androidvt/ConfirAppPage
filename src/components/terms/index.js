@@ -2,7 +2,7 @@ import React from 'react';
 
 export default () => {
     return (
-        <div>
+        <div style={{maxWidth:'100%', paddingRight:'4em'}}>
             <h2 style={{paddingTop:'3em', paddingLeft:'3em', paddingBottom:'1em'}}>TÉRMINOS Y CONDICIONES DE USO DE LA APLICACIÓN CONFIRMAPP</h2>
             <p style={{paddingLeft:'2em',}}><a style={{fontWeight:'bold'}}>CONFIRMAPP</a> informa a todas las personas que ingresen o hagan uso de la aplicación (en adelante EL USUARIO) que, previo al acceso a la misma deberán aceptar los presentes “Términos y condiciones de uso”, a través de la modalidad de “aceptación expresa” (marcando la casilla correspondiente para manifestar su aceptación), o de la modalidad de “aceptación por acto inequívoco” (suministrando voluntariamente los datos personales requeridos en el “Formulario de registro”). Lo invitamos a que lea detalladamente los “Términos y condiciones de uso” que se exponen a continuación, y que en el evento en que después de una lectura atenta de los mismos su decisión sea la de no aceptarlos, se abstenga de utilizar la aplicación y los servicios que esta presta. Los presentes “Términos y condiciones de uso” tendrán vigencia a partir del 01 de Enero de 2.020, y se regirán por las siguientes clausulas:</p>
             <p style={{paddingLeft:'2em',}}><a style={{fontWeight:'bold'}}>PRIMERA. DEFINICIONES.</a> Para los fines de los presentes “Términos y condiciones de uso”, las expresiones que a continuación se mencionan, tendrán el siguiente significado:

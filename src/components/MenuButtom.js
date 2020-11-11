@@ -9,7 +9,13 @@ const MenuButtonWrapper = styled.button`
 
   @media only screen and (min-width: 624px) {
     display: none;
+
   }
+  @media only screen and (max-width: 624px) {
+  position: relative;
+  left: 3em;
+  top:4em
+}
 `
 
 function MenuButton({ open, handleClick }) {
