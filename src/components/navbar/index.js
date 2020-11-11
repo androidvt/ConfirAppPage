@@ -1,30 +1,24 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
+import {Link} from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { Link } from 'react-router-dom';
+import { NavbarWrapper } from "../../styles/NavbarStyles"
 
-const navbar = () => {
+const navbar = ({open}) => {
     return (
-        <Navbar bg="white" variant="light">
-            <Navbar.Brand as={Link} to="/">ConfirmApp</Navbar.Brand>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <Nav className="ml-auto">
-                <Nav.Link as={Link} to="/">Home</Nav.Link>
-                <Nav.Link as={Link} to="/Privacy">Aviso De Privacidad</Nav.Link>
-                <Nav.Link as={Link} to="/PoliticTratament">Politica de Tratamiento de Datos</Nav.Link>
-                <Nav.Link as={Link} to="/termsAndCondition">Terminos y condiciones</Nav.Link>
-                 <Nav.Link as={Link} to="/ContactUs">ContactUs</Nav.Link>
-                {/* <NavDropdown title="Additional Menus" id="collasible-nav-dropdown">
-                    <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                </NavDropdown> */}
-            </Nav>
+       <>
             
-        </Navbar>
+            <NavbarWrapper open={open}>
+            <Navbar.Brand as={Link} to="/" style={{color:'blue'}}>ConfirmApp</Navbar.Brand>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Link to="/">Home</Link>
+                <Link to="/Privacy">Aviso De Privacidad</Link>
+                <Link to="/PoliticTratament">Politica de Tratamiento de Datos</Link>
+                <Link to="/termsAndCondition">Terminos y condiciones</Link>
+                 <Link to="/ContactUs">ContactUs</Link>
+            </NavbarWrapper>
+         </>   
     )
 }
 

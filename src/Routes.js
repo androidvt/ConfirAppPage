@@ -8,12 +8,7 @@ import Contact from './components/contactUs';
 import NotFound from './components/404';
 
 export default () => (
-    <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/Privacy" component={Privancy} />
-        <Route path="/PoliticTratament" component={PoliticTra} />
-        <Route path="/termsAndCondition" component={Terms}/>
-        <Route path="/ContactUs" component={Contact}/>
-        <Route component={NotFound} />
-    </Switch>
+    <>
+        
+    </>
 );
