@@ -2,24 +2,27 @@ import React from "react"
 import styled from "styled-components"
 
 const MenuButtonWrapper = styled.button`
-  border: none;
+  border: solid 0.1px blue;
   border-radius:100%
   box-shadow: 0px 0px 1px rgb(50, 50, 50);
   margin-top: 1.3rem;
-  position: fixed;
 
   @media only screen and (min-width: 624px) {
     display: none;
-    
 
   }
-  
+  @media only screen and (max-width: 624px) {
+  position: fixed;
+  left:18em;
+  top:-0.5em
+}
 `
 
 function MenuButton({ open, handleClick }) {
   return !open ? (
     <MenuButtonWrapper onClick={handleClick}>
       <svg viewBox="0 0 100 80" width="30" height="30" fill="#2962ff">
+        
         <rect width="90" height="10" />
         <rect y="30" width="80" height="10" />
         <rect y="60" width="70" height="10" />
