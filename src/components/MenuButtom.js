@@ -2,20 +2,18 @@ import React from "react"
 import styled from "styled-components"
 
 const MenuButtonWrapper = styled.button`
-  border: solid 0.1px blue;
+  border: none;
   border-radius:100%
   box-shadow: 0px 0px 1px rgb(50, 50, 50);
   margin-top: 1.3rem;
+  position: fixed;
 
   @media only screen and (min-width: 624px) {
     display: none;
+    
 
   }
-  @media only screen and (max-width: 624px) {
-  position: relative;
-  left: 2em;
-  top:3em
-}
+  
 `
 
 function MenuButton({ open, handleClick }) {

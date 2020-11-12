@@ -4,18 +4,19 @@ import {Link} from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { NavbarWrapper } from "../../styles/NavbarStyles"
+import Button from '@material-ui/core/Button';
 
 const navbar = ({open}) => {
     return (
        <>
             
             <NavbarWrapper open={open}>
-            <Link to="/" style={{color:'blue'}}>ConfirmApp</Link>
-                <Link to="/">Home</Link>
-                <Link to="/Privacy">Aviso De Privacidad</Link>
-                <Link to="/PoliticTratament">Politica de Tratamiento de Datos</Link>
-                <Link to="/termsAndCondition">Terminos y condiciones</Link>
-                 <Link to="/ContactUs">ContactUs</Link>
+            <Link to="/" style={{color:'Black', fontSize:'1em'}}>ConfirmApp</Link>
+                <Link to="/"><Button color="primary" disableElevation >Home</Button></Link>
+                <Link to="/Privacy"><Button color="primary" disableElevation >Aviso De Privacidad</Button></Link>
+                <Link to="/PoliticTratament"><Button color="primary" disableElevation>Politica de Tratamiento de Datos</Button></Link>
+                <Link to="/termsAndCondition"><Button color="primary" disableElevation>Terminos y condiciones</Button></Link>
+                 <Link to="/ContactUs"><Button color="primary" disableElevation >ContactUs</Button></Link>
             </NavbarWrapper>
          </>   
     )

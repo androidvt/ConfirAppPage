@@ -23,8 +23,8 @@ export default () => {
             </div>
                       <h4 style={{paddingTop:'1em'}}> Puede descargarla en su plataforma preferida:</h4>
             <div style={{paddingTop:'2em', display:'flex', alignItems:'center', textAlign:'center', justifyContent:'center'}}>
-            <div><a style={{paddingRight:'2em'}} href="http://play.google.com/store/apps/details?id=com.confirmapp"><Button color="primary" variant="contained"> ConfirmApp PlayStore</Button></a></div>
-           <div> <a href="itms-apps://itunes.apple.com/app/apple-store/id1497388031"><Button color="primary" variant="contained"> ConfirmApp IOS</Button ></a></div>
+            <div style={{paddingRight:'2em'}}><a  href="http://play.google.com/store/apps/details?id=com.confirmapp"><Button color="primary" variant="contained"> ConfirmApp PlayStore</Button></a></div>
+           <div style={{paddingLeft:'2em'}}> <a href="itms-apps://itunes.apple.com/app/apple-store/id1497388031"><Button color="primary" variant="contained"> ConfirmApp IOS</Button ></a></div>
 
             </div>
 

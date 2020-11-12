@@ -5,9 +5,10 @@ export const NavbarWrapper = styled.nav`
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background: turquoise;
+  background: black;
   position: fixed;
   top: 10vh;
+  
   right: ${props => (props.open ? "0" : "-100%")};
   width: 100%;
   height: 90vh;
